@@ -22,7 +22,7 @@ $ ` ps aux`
 ### 3. CPU Usage Analysis
 
 
-$ ` top -o cpu `
+$ ` top `
 
  - This lists user processes sorted by CPU usage, with the highest CPU-consuming process shown first.
 
@@ -32,9 +32,9 @@ $ ` top -o cpu `
 ### 4. Background Process Execution
 
 
-$ ` sleep 300 & jobs `
+$ ` sleep 100 &  `
 
- - **sleep 300 &** starts a background process, and **jobs** confirms that the background job is running.
+ - **sleep 100 &** starts a background process.
 
 ![Background Process Execution](images/task_4.png)
 
@@ -97,6 +97,7 @@ $ ` uname -a > system_report.txt `
 
 $ ` ncdu ~ `
 
-- **ncdu** provides an interactive, text-based visualization of disk usage within the home directory, showing space consumed by files and directories.
+ - **ncdu** provides an interactive, text-based visualization of disk usage within the home directory, showing space consumed by files and directories.
+ - By default not installed, have to install it to use
 
 ![Disk Usage Visualization](images/task_10.png)
