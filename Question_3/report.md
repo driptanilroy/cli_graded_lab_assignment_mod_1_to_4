@@ -51,9 +51,9 @@ $ `ls -li ~/sample_data.txt ~/sample_hard.txt ~/sample_soft.txt `
 ---
 ### 6. File Metadata Inspection
 
-```
-$ ls -l ~/sample_data.txt
-```
+
+$ `ls -l ~/sample_data.txt `
+
 - This displays permissions, ownership, file size, and timestamps for **sample_data.txt**.
 
 ![File Metadata Inspection](images/task_6.png)
@@ -61,9 +61,9 @@ $ ls -l ~/sample_data.txt
 ---
 ### 7. Disk Usage Check
 
-```
-$ du -sh ~
-```
+
+$ `du -sh ~ `
+
 - **du -sh** shows the total disk usage of the home directory in a human-readable format.
 
 ![Disk Usage Check](images/task_7.png)
@@ -71,9 +71,9 @@ $ du -sh ~
 ---
 ### 8. File Size Overview
 
-```
-$ ls -lh ~
-```
+
+$ ` ls -lh ~ `
+
 - **ls -lh** lists files in the home directory along with their sizes in a human-readable format.
 
 ![File Size Overview](images/task_8.png)
@@ -81,13 +81,11 @@ $ ls -lh ~
 ---
 ### 9. Link Deletion Test
 
-```
-$ rm ~/sample_soft.txt
-```
 
-```
-$ cat ~/sample_data.txt
-```
+$ ` rm ~/sample_soft.txt `
+
+$ ` cat ~/sample_data.txt `
+
 - Removing the symbolic link does not affect the original file, which remains accessible and unchanged.
 
 ![Link Deletion Test](images/task_9.png)
@@ -95,16 +93,16 @@ $ cat ~/sample_data.txt
 ---
 ### 10. Disk Utility Demonstration
 
-```
-$ du -h -d 1 ~
-```
+
+$ ` du -h -d 1 ~ `
+
 - **du -h -d 1** shows disk usage per directory level in the home directory.
 
 ![Disk Utility Demonstration](images/task_10A.png)
 
-```
-$ df -h
-```
+
+$ ` df -h `
+
 - **df -h** displays filesystem-wide disk space usage, including total, used, and available space.
 
 ![Disk Utility Demonstration](images/task_10B.png)
