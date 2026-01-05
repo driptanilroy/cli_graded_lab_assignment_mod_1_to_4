@@ -47,7 +47,7 @@ $ `ls -li ~/sample_data.txt ~/sample_hard.txt ~/sample_soft.txt `
 
 - **sample_data.txt** and **sample_hard.txt** share the same inode because hard links reference the same filesystem object.
 - **sample_soft.txt** has a different inode because it is a separate file that stores a path reference.
-
+![Inode Analysis](images/task_5.png)
 ---
 ### 6. File Metadata Inspection
 
